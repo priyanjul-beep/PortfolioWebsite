@@ -41,6 +41,37 @@ export default function Experience({ currentMode }) {
         'Integrated SHAP explainability into the machine learning pipeline to deliver transparent and interpretable prediction insights.',
         'Deployed the fraud detection system to production, actively serving real users through the Live Platform.'
       ]
+    },
+    {
+      company: 'Perception & Intelligence Lab (PIL), IIT Kanpur',
+      role: 'Research Intern',
+      duration: 'Dec 2024 – Feb 2025',
+      location: 'Kanpur, India',
+      logo: 'PIL',
+      metrics: [
+        { label: 'Classification Accuracy', value: '+18%' },
+        { label: 'Detection System', value: 'Real-Time' }
+      ],
+      bullets: [
+        'Developed a Web UI for the R307 fingerprint sensor using Python and Flask, enabling real-time fake fingerprint detection and live sensor interaction.',
+        'Enhanced the fabric differentiation research project with ML/DL pipelines, improving multi-class classification accuracy by 18% over previous baselines.',
+        'Worked across the full stack — Python, Flask, C++, and embedded systems — bridging research-grade hardware with accessible web interfaces.'
+      ]
+    },
+    {
+      company: 'Centre for Development of Advanced Computing (C-DAC)',
+      role: 'Cybersecurity Intern (Remote)',
+      duration: 'Sep 2024 – Oct 2024',
+      location: 'Remote',
+      logo: 'CDAC',
+      metrics: [
+        { label: 'IDS Detection Rate', value: '90%' },
+        { label: 'Vulnerabilities Documented', value: '10+' }
+      ],
+      bullets: [
+        'Configured and deployed Snort IDS on Windows network environments, achieving a 90% intrusion detection rate across simulated attack scenarios.',
+        'Documented 10+ network vulnerabilities with detailed technical write-ups and implemented mitigation strategies to harden the monitored systems.'
+      ]
     }
   ];
 
@@ -80,6 +111,37 @@ export default function Experience({ currentMode }) {
         'Architected a Streamlit-based monitoring dashboard featuring model inference, automated logging, and real-time prediction audit trails.',
         'Generated PCA- and UMAP-based visualizations to examine anomaly clusters, improving interpretability and evaluating model performance across datasets.',
         'Improved pipeline reliability by integrating OrdinalEncoder and StandardScaler consistently across training and inference workflows.'
+      ]
+    },
+    {
+      company: 'Perception & Intelligence Lab (PIL), IIT Kanpur',
+      role: 'Research Intern',
+      duration: 'Dec 2024 – Feb 2025',
+      location: 'Kanpur, India',
+      logo: 'PIL',
+      metrics: [
+        { label: 'Classification Accuracy', value: '+18%' },
+        { label: 'Fabric Classes', value: 'Multi-Class DL' }
+      ],
+      bullets: [
+        'Enhanced the fabric differentiation research project with ML/DL pipelines (CNNs, fine-tuned vision models), improving multi-class classification accuracy by 18% over previous baselines.',
+        'Developed a Web UI for the R307 fingerprint sensor in Python/Flask for real-time fake fingerprint detection, integrating embedded sensor communication with a live dashboard.',
+        'Worked across Python, C++, and embedded systems to bridge research-grade hardware with accessible data-collection and inference interfaces.'
+      ]
+    },
+    {
+      company: 'Centre for Development of Advanced Computing (C-DAC)',
+      role: 'Cybersecurity Intern (Remote)',
+      duration: 'Sep 2024 – Oct 2024',
+      location: 'Remote',
+      logo: 'CDAC',
+      metrics: [
+        { label: 'IDS Detection Rate', value: '90%' },
+        { label: 'Vulnerabilities Documented', value: '10+' }
+      ],
+      bullets: [
+        'Configured and deployed Snort IDS on Windows network environments, achieving a 90% intrusion detection rate against simulated threat patterns.',
+        'Documented 10+ network vulnerabilities with technical analysis and implemented mitigation strategies to harden monitored systems.'
       ]
     }
   ];
