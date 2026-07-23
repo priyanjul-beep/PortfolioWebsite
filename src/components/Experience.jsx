@@ -7,7 +7,7 @@ export default function Experience({ currentMode }) {
     {
       company: 'AppsForBharat',
       role: 'Software Development Engineer Intern (On-site)',
-      duration: 'Jan 2026 – Present',
+      duration: 'Jan 2026 – July 2026',
       location: 'Bengaluru, India',
       logo: 'AFB',
       metrics: [
@@ -48,7 +48,7 @@ export default function Experience({ currentMode }) {
     {
       company: 'AppsForBharat',
       role: 'Software Development Engineer Intern (On-site)',
-      duration: 'Jan 2026 – Present',
+      duration: 'Jan 2026 – July 2026',
       location: 'Bengaluru, India',
       logo: 'AFB',
       metrics: [
