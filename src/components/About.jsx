@@ -2,18 +2,12 @@ import React from 'react';
 import { Award, BookOpen, Trophy, Cpu, Code2, Database } from 'lucide-react';
 
 export default function About({ currentMode }) {
-  const cgpa = currentMode === 'sde' ? '8.75' : '8.67';
+  const cgpa = '8.7';
   
-  const stats = currentMode === 'sde' 
-    ? [
-        { label: 'LeetCode Problems', value: '800+', icon: <Code2 size={20} /> },
-        { label: 'GeeksforGeeks solved', value: '350+', icon: <Trophy size={20} /> },
+  const stats = [
+        { label: 'LeetCode Problems', value: '850+', icon: <Code2 size={20} /> },
+        { label: 'GeeksforGeeks solved', value: '400+', icon: <Trophy size={20} /> },
         { label: 'SQL Problems', value: '100+', icon: <Database size={20} /> }
-      ]
-    : [
-        { label: 'LeetCode Problems', value: '650+', icon: <Code2 size={20} /> },
-        { label: 'GFG Score', value: '600+', icon: <Trophy size={20} /> },
-        { label: 'ML Projects', value: '4+', icon: <Cpu size={20} /> }
       ];
 
   const scholarships = [
