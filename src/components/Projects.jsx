@@ -181,6 +181,42 @@ export default function Projects({ currentMode }) {
         'Built a Streamlit UI with an interactive projection modal — supports field search, select-all/clear-all checkboxes, auto-generated config, and a JSON editor for manual field mapping.',
         'Delivered a Python CLI and programmatic API with comprehensive Pytest coverage; output is fully configurable (E164 phone normalization, canonical skill names, on_missing: null/omit/error).'
       ]
+    },
+    {
+      id: 'vault-os',
+      title: 'VAULT OS – Biometric Media Engine',
+      category: 'web',
+      tag: 'Full-Stack / AI / Biometrics',
+      demo: 'https://vault-os-xi.vercel.app/',
+      github: 'https://github.com/PriyanjulSonkar/face-based-media-system',
+      techs: ['Next.js 15', 'AWS Rekognition', 'PostgreSQL', 'Prisma ORM', 'Amazon S3', 'Tailwind CSS', 'Framer Motion', 'Shadcn UI'],
+      prioritySde: 10,
+      priorityMle: 10,
+      desc: 'High-performance biometric-driven media engine for exclusive events — guests find their photos via face recognition with real-time liveness detection and zero-password access.',
+      bullets: [
+        'Built a Live-Blink Biometric Handshake using AWS Rekognition FaceId vectoring: guests are authenticated purely by face, with canvas-overlay liveness scanning that prevents photo-of-photo spoofing.',
+        'Engineered real-time S3 asset zipping and streaming via Node.js Streams, enabling bulk vault downloads without memory exhaustion for large event media libraries.',
+        'Designed security-first architecture: facial vectors (not raw images) stored in Rekognition Collections, all assets served via Pre-Signed S3 URLs with 3600s TTL, and automatic EXIF metadata scrubbing on upload.',
+        'Delivered a brutalist Framer Motion UI with terminal-style text descrambling, 60fps shared-element gallery transitions, and an optimized masonry archive grid with zero layout shift.'
+      ]
+    },
+    {
+      id: 'mern-marketplace',
+      title: 'MERN Marketplace',
+      category: 'web',
+      tag: 'Web Development',
+      demo: 'https://mern-marketplace-ledj.onrender.com/',
+      github: 'https://github.com/PriyanjulSonkar/Mern-MarketPlace',
+      techs: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Razorpay', 'Socket.io'],
+      prioritySde: 11,
+      priorityMle: 11,
+      desc: 'Full-featured online marketplace with seller accounts, product search, shopping cart, order management, Razorpay payment processing, and live auction powered by Socket.io.',
+      bullets: [
+        'Built multi-role architecture supporting separate seller and buyer accounts with product listing, search suggestions, and category-based browsing.',
+        'Integrated Razorpay payment gateway for secure checkout with order confirmation and payment verification workflows.',
+        'Implemented real-time live auction feature using Socket.io, enabling synchronized bidding across all connected clients with instant price updates.',
+        'Developed full order management system with cart persistence, order history, and seller fulfillment tracking.'
+      ]
     }
   ];
 
