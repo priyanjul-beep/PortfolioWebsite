@@ -8,12 +8,12 @@ export default function Skills({ currentMode }) {
     {
       title: 'Backend Engineering',
       icon: <Server size={20} />,
-      skills: ['Node.js', 'Express.js', 'RESTful APIs', 'JWT Authentication', 'Middleware Architecture', 'API Gateway']
+      skills: ['Node.js','Golang','Express.js', 'RESTful APIs', 'JWT Authentication', 'Middleware Architecture', 'API Gateway']
     },
     {
       title: 'Databases & Storage',
       icon: <Database size={20} />,
-      skills: ['MongoDB', 'MySQL', 'Schema Modeling', 'Database Indexing', 'Query Optimization', 'Caching Strategies']
+      skills: ['MongoDB', 'MySQL', 'Postgre SQL','Schema Modeling', 'Database Indexing', 'Query Optimization', 'Caching Strategies']
     },
     {
       title: 'System Design & DevOps',
@@ -23,7 +23,7 @@ export default function Skills({ currentMode }) {
     {
       title: 'Frontend Development',
       icon: <Layout size={20} />,
-      skills: ['React.js', 'Tailwind CSS', 'State Management (Zustand/Redux)', 'Component-Based Architecture']
+      skills: ['React.js','Next.js', 'TypeScript', 'Tailwind CSS', 'State Management (Zustand/Redux)', 'Component-Based Architecture']
     },
     {
       title: 'Monitoring & Observability',
