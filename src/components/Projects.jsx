@@ -145,6 +145,42 @@ export default function Projects({ currentMode }) {
         'Role-Based Access Control: customers manage their tickets while admins view and reply to all requests.',
         'Leveraged WebSockets for real-time ticket status updates and MongoDB for persistence.'
       ]
+    },
+    {
+      id: 'ai-finance-tracker',
+      title: 'AI Finance Tracker',
+      category: 'web',
+      tag: 'Full-Stack / AI',
+      demo: 'https://ai-finance-tracker-2-q25a.onrender.com',
+      github: 'https://github.com/priyanjul-beep/Ai-Finance-Tracker',
+      techs: ['Go', 'Gin', 'Next.js 14', 'PostgreSQL', 'Redis', 'Gemini AI', 'Asynq', 'JWT', 'Docker'],
+      prioritySde: 8,
+      priorityMle: 8,
+      desc: 'Production-grade AI-powered personal finance assistant with expense tracking, budget management, receipt OCR, voice input, and real-time spending predictions.',
+      bullets: [
+        'Built Go (Gin) REST API following Clean Architecture — domain, repository, usecase, handler layers — with JWT (access + refresh) and Google OAuth 2.0 authentication.',
+        'Integrated Google Gemini AI for natural-language expense parsing, smart categorization, spending insights, next-month predictions, and a live financial health score.',
+        'Implemented Redis-cached notification center with Asynq background workers for budget-alert emails (90% / exceeded thresholds) and welcome notifications on signup.',
+        'Engineered full analytics suite: monthly/yearly reports, AI-driven forecasts, Prometheus metrics, and a Next.js 14 App Router dashboard with Recharts visualizations and TanStack Query v5.'
+      ]
+    },
+    {
+      id: 'candidate-transformer',
+      title: 'Multi-Source Candidate Data Transformer',
+      category: 'ml',
+      tag: 'Machine Learning / Python',
+      demo: 'https://candidate-data-transformer-sn4wmpxrabbdhbsrqbbbfg.streamlit.app',
+      github: 'https://github.com/priyanjul-beep/candidate-data-transformer',
+      techs: ['Python', 'Streamlit', 'Pandas', 'Pytest', 'CLI', 'NLP', 'Data Pipeline'],
+      prioritySde: 9,
+      priorityMle: 9,
+      desc: 'End-to-end candidate profile transformer that merges structured (CSV, JSON) and unstructured (TXT recruiter notes) sources into a canonical record with dynamic provenance and confidence tracking.',
+      bullets: [
+        'Architected a modular pipeline (extractors → normalizers → merger → projector → validator) that processes recruiter CSV, ATS JSON, and free-text notes without crashing on missing sources.',
+        'Implemented dynamic provenance and confidence tracking: skill sources reflect actual contributors (single vs. multi-source), and all raw evidence is preserved for full transparency.',
+        'Built a Streamlit UI with an interactive projection modal — supports field search, select-all/clear-all checkboxes, auto-generated config, and a JSON editor for manual field mapping.',
+        'Delivered a Python CLI and programmatic API with comprehensive Pytest coverage; output is fully configurable (E164 phone normalization, canonical skill names, on_missing: null/omit/error).'
+      ]
     }
   ];
 
