@@ -132,7 +132,7 @@ export default function Navbar({ currentMode, toggleMode }) {
             {/* Social Icons */}
             <div className="flex items-center gap-3 border-l border-slate-800 pl-6">
               <a 
-                href="https://github.com/PriyanjulSonkar" 
+                href="https://github.com/priyanjul-beep" 
                 target="_blank" 
                 rel="noreferrer"
                 className="text-slate-400 hover:text-white transition-colors"
@@ -197,7 +197,7 @@ export default function Navbar({ currentMode, toggleMode }) {
           ))}
           <div className="pt-4 border-t border-slate-900 flex justify-around">
             <a 
-              href="https://github.com/PriyanjulSonkar" 
+              href="https://github.com/priyanjul-beep" 
               target="_blank" 
               rel="noreferrer"
               className="text-slate-400 hover:text-white flex items-center gap-2 text-sm"

@@ -109,8 +109,8 @@ export default function Contact({ currentMode }) {
     },
     {
       label: 'GitHub Profile',
-      value: 'github.com/PriyanjulSonkar',
-      href: 'https://github.com/PriyanjulSonkar',
+      value: 'https://github.com/priyanjul-beep',
+      href: 'https://github.com/priyanjul-beep',
       icon: <Github size={20} />,
       id: 'contact-github-card'
     }
